@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Weapons">
+      <UniqueIdentifier>{e0cb06d2-de73-46d5-9026-e442db25aed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapons">
+      <UniqueIdentifier>{c41ca39d-0fc7-4304-8d9a-a2d51edf4e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{e17a34e0-8eeb-4955-8839-90c5afc383aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{83eab825-ba4e-4367-b0cc-e601b22200ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapon Ammo">
+      <UniqueIdentifier>{b2080921-e4bf-495c-bf10-afe26bfb6fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapon Ammo">
+      <UniqueIdentifier>{2171d785-c42b-40da-90f8-57eaaa2d6d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item Drops">
+      <UniqueIdentifier>{17e8d856-88ad-4e28-8e3d-924b85ec72ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Item Drops">
+      <UniqueIdentifier>{2d332ac2-ec2e-4c9d-a155-b28054f33eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Static Library">
+      <UniqueIdentifier>{b1d5d8f9-8165-4c47-ab22-456a3705ebde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Static Library">
+      <UniqueIdentifier>{c4851c1c-2cc8-404b-8fbf-40b08cebd879}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Legend Who Created Everything">
+      <UniqueIdentifier>{c70080a0-86a5-4fef-9af7-542b47f18f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Legend Who Created Everything">
+      <UniqueIdentifier>{565a760b-9e79-410d-af4e-582053dded92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Musket.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Bow.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>Header Files\Weapon Ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Header Files\Weapon Ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="Ammo.h">
+      <Filter>Header Files\Weapon Ammo</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPack.h">
+      <Filter>Header Files\Item Drops</Filter>
+    </ClInclude>
+    <ClInclude Include="Loot.h">
+      <Filter>Header Files\Item Drops</Filter>
+    </ClInclude>
+    <ClInclude Include="Extension.h">
+      <Filter>Header Files\Static Library</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Legend Who Created Everything</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceHolder.h">
+      <Filter>Header Files\Static Library</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletPack.h">
+      <Filter>Header Files\Item Drops</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowPack.h">
+      <Filter>Header Files\Item Drops</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Musket.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Bow.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>Source Files\Weapon Ammo</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Weapon Ammo</Filter>
+    </ClCompile>
+    <ClCompile Include="Ammo.cpp">
+      <Filter>Source Files\Weapon Ammo</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPack.cpp">
+      <Filter>Source Files\Item Drops</Filter>
+    </ClCompile>
+    <ClCompile Include="Loot.cpp">
+      <Filter>Source Files\Item Drops</Filter>
+    </ClCompile>
+    <ClCompile Include="Extension.cpp">
+      <Filter>Source Files\Static Library</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Legend Who Created Everything</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceHolder.cpp">
+      <Filter>Source Files\Static Library</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletPack.cpp">
+      <Filter>Source Files\Item Drops</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowPack.cpp">
+      <Filter>Source Files\Item Drops</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
